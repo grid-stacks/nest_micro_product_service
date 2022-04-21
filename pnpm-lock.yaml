@@ -26,6 +26,7 @@ specifiers:
   jest: ^27.2.5
   pg: ^8.7.3
   prettier: ^2.3.2
+  protobufjs: ^6.11.2
   reflect-metadata: ^0.1.13
   rimraf: ^3.0.2
   rxjs: ^7.2.0
@@ -51,6 +52,7 @@ dependencies:
   class-transformer: 0.5.1
   class-validator: 0.13.2
   pg: 8.7.3
+  protobufjs: 6.11.2
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 7.5.5
@@ -865,7 +867,7 @@ packages:
     dev: false
 
   /@nestjs/mapped-types/1.0.1_5a485a6776bce4bf38c75aafd7cb3504:
-    resolution: {integrity: sha512-NFvofzSinp00j5rzUd4tf+xi9od6383iY0JP7o0Bnu1fuItAUkWBgc4EKuIQ3D+c2QI3i9pG1kDWAeY27EMGtg==, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@nestjs/mapped-types/-/mapped-types-1.0.1.tgz}
+    resolution: {integrity: sha512-NFvofzSinp00j5rzUd4tf+xi9od6383iY0JP7o0Bnu1fuItAUkWBgc4EKuIQ3D+c2QI3i9pG1kDWAeY27EMGtg==}
     peerDependencies:
       '@nestjs/common': ^7.0.8 || ^8.0.0
       class-transformer: ^0.2.0 || ^0.3.0 || ^0.4.0 || ^0.5.0
@@ -1046,37 +1048,37 @@ packages:
     dev: false
 
   /@protobufjs/aspromise/1.1.2:
-    resolution: {integrity: sha1-m4sMxmPWaafY9vXQiToU00jzD78=}
+    resolution: {integrity: sha1-m4sMxmPWaafY9vXQiToU00jzD78=, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/aspromise/-/aspromise-1.1.2.tgz}
 
   /@protobufjs/base64/1.1.2:
-    resolution: {integrity: sha512-AZkcAA5vnN/v4PDqKyMR5lx7hZttPDgClv83E//FMNhR2TMcLUhfRUBHCmSl0oi9zMgDDqRUJkSxO3wm85+XLg==}
+    resolution: {integrity: sha512-AZkcAA5vnN/v4PDqKyMR5lx7hZttPDgClv83E//FMNhR2TMcLUhfRUBHCmSl0oi9zMgDDqRUJkSxO3wm85+XLg==, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/base64/-/base64-1.1.2.tgz}
 
   /@protobufjs/codegen/2.0.4:
-    resolution: {integrity: sha512-YyFaikqM5sH0ziFZCN3xDC7zeGaB/d0IUb9CATugHWbd1FRFwWwt4ld4OYMPWu5a3Xe01mGAULCdqhMlPl29Jg==}
+    resolution: {integrity: sha512-YyFaikqM5sH0ziFZCN3xDC7zeGaB/d0IUb9CATugHWbd1FRFwWwt4ld4OYMPWu5a3Xe01mGAULCdqhMlPl29Jg==, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/codegen/-/codegen-2.0.4.tgz}
 
   /@protobufjs/eventemitter/1.1.0:
-    resolution: {integrity: sha1-NVy8mLr61ZePntCV85diHx0Ga3A=}
+    resolution: {integrity: sha1-NVy8mLr61ZePntCV85diHx0Ga3A=, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/eventemitter/-/eventemitter-1.1.0.tgz}
 
   /@protobufjs/fetch/1.1.0:
-    resolution: {integrity: sha1-upn7WYYUr2VwDBYZ/wbUVLDYTEU=}
+    resolution: {integrity: sha1-upn7WYYUr2VwDBYZ/wbUVLDYTEU=, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/fetch/-/fetch-1.1.0.tgz}
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/inquire': 1.1.0
 
   /@protobufjs/float/1.0.2:
-    resolution: {integrity: sha1-Xp4avctz/Ap8uLKR33jIy9l7h9E=}
+    resolution: {integrity: sha1-Xp4avctz/Ap8uLKR33jIy9l7h9E=, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/float/-/float-1.0.2.tgz}
 
   /@protobufjs/inquire/1.1.0:
-    resolution: {integrity: sha1-/yAOPnzyQp4tyvwRQIKOjMY48Ik=}
+    resolution: {integrity: sha1-/yAOPnzyQp4tyvwRQIKOjMY48Ik=, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/inquire/-/inquire-1.1.0.tgz}
 
   /@protobufjs/path/1.1.2:
-    resolution: {integrity: sha1-bMKyDFya1q0NzP0hynZz2Nf79o0=}
+    resolution: {integrity: sha1-bMKyDFya1q0NzP0hynZz2Nf79o0=, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/path/-/path-1.1.2.tgz}
 
   /@protobufjs/pool/1.1.0:
-    resolution: {integrity: sha1-Cf0V8tbTq/qbZbw2ZQbWrXhG/1Q=}
+    resolution: {integrity: sha1-Cf0V8tbTq/qbZbw2ZQbWrXhG/1Q=, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/pool/-/pool-1.1.0.tgz}
 
   /@protobufjs/utf8/1.1.0:
-    resolution: {integrity: sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=}
+    resolution: {integrity: sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/@protobufjs/utf8/-/utf8-1.1.0.tgz}
 
   /@sinonjs/commons/1.8.3:
     resolution: {integrity: sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ==}
@@ -4523,7 +4525,7 @@ packages:
     dev: true
 
   /protobufjs/6.11.2:
-    resolution: {integrity: sha512-4BQJoPooKJl2G9j3XftkIXjoC9C0Av2NOrWmbLWT1vH32GcSUHjM0Arra6UfTsVyfMAuFzaLucXn1sadxJydAw==}
+    resolution: {integrity: sha512-4BQJoPooKJl2G9j3XftkIXjoC9C0Av2NOrWmbLWT1vH32GcSUHjM0Arra6UfTsVyfMAuFzaLucXn1sadxJydAw==, tarball: https://hub.chemaxon.com:443/artifactory/api/npm/npm/protobufjs/-/protobufjs-6.11.2.tgz}
     hasBin: true
     requiresBuild: true
     dependencies:
