@@ -4,6 +4,7 @@ import { Transport } from '@nestjs/microservices';
 import { join } from 'path';
 import { AppModule } from './app.module';
 import { protobufPackage } from './product/product.pb';
+import { HttpExceptionFilter } from './product/filter/http-exception.filter';
 
 async function bootstrap() {
   const app: INestMicroservice = await NestFactory.createMicroservice(
@@ -18,6 +19,7 @@ async function bootstrap() {
     },
   );
 
+  app.useGlobalFilters(new HttpExceptionFilter());
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true }));
 
   await app.listen();
